@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" MaxWidth="850" Height="450"
+        x:Class="LastDemo.MainWindow"
+		x:CompileBindings="False"
+        Title="LastDemo">
+	<DockPanel>
+		<Button DockPanel.Dock="Bottom" Content="Добавить товар" Click="Add"/>
+		<Button DockPanel.Dock="Bottom" Content="Удалить товар" Click="Delete" Name="DeleteButton" IsVisible="False"/>
+		<TextBox Name="Search" DockPanel.Dock="Top" HorizontalAlignment="Stretch" TextChanged="TextBox_TextChanged"/>
+		<Grid DockPanel.Dock="Top" ColumnDefinitions="*,*,*">
+			<TextBlock Name="Amount" Grid.Column="0"/>
+			<ComboBox SelectionChanged="SelectionChanged" Name="Filtr" HorizontalAlignment="Stretch" Grid.Column="1"/>
+			<ComboBox SelectionChanged="SelectionChanged" Name="Sort" HorizontalAlignment="Stretch" Grid.Column="2">
+				<ComboBoxItem>Без сортировки</ComboBoxItem>
+				<ComboBoxItem>По возрастанию цены</ComboBoxItem>
+				<ComboBoxItem>По убыванию цены</ComboBoxItem>
+			</ComboBox>
+		</Grid>
+
+		<ListBox SelectionChanged="ListBox_SelectionChanged_1" Margin="5" DockPanel.Dock="Top" Name="ProductList">
+			<ListBox.ItemsPanel>
+				<ItemsPanelTemplate>
+					<WrapPanel Orientation="Horizontal" />
+				</ItemsPanelTemplate>
+			</ListBox.ItemsPanel>
+			<ListBox.ItemTemplate>
+				<DataTemplate>
+					<Border DoubleTapped="Change" Tag="{Binding Id}" Background="{Binding Color}" Height="300" Width="250"  BorderBrush="Gray" BorderThickness="2">
+						<Grid Margin="10" RowDefinitions="6*, 4*">
+							<DockPanel Grid.Row="0">
+								<Image Source="{Binding Image}"/>
+							</DockPanel>
+							<StackPanel Orientation="Vertical" Grid.Row="1">
+								<TextBlock TextWrapping="Wrap" Text="{Binding Title}"/>
+								<TextBlock Text="{Binding Cost}"/>
+								<TextBlock IsVisible="{Binding Active}" Text="Активный"/>
+								<TextBlock IsVisible="{Binding !Active}" Text="Неактивный"/>
+								<TextBlock/>
+							</StackPanel>
+						</Grid>
+					</Border>
+				</DataTemplate>
+			</ListBox.ItemTemplate>
+		</ListBox>
+	</DockPanel>
+</Window>

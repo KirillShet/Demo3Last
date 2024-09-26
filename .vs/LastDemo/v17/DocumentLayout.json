@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\models\\manufacturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\entitymodels\\shetinincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\entitymodels\\shetinincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|c:\\users\\class_student\\desktop\\lastdemo\\lastdemo\\productaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2097ABE-7782-4564-BEAB-401935445D26}|LastDemo\\LastDemo.csproj|solutionrelative:lastdemo\\productaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 140,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Manufacturer.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\Models\\Manufacturer.cs",
+              "RelativeDocumentMoniker": "LastDemo\\Models\\Manufacturer.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\Models\\Manufacturer.cs",
+              "RelativeToolTip": "LastDemo\\Models\\Manufacturer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T07:41:47.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "LastDemo\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\Models\\Product.cs",
+              "RelativeToolTip": "LastDemo\\Models\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAwwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:35:15.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductAction.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\ProductAction.cs",
+              "RelativeDocumentMoniker": "LastDemo\\ProductAction.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\ProductAction.cs",
+              "RelativeToolTip": "LastDemo\\ProductAction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:15:09.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShetininContext.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\EntityModels\\ShetininContext.cs",
+              "RelativeDocumentMoniker": "LastDemo\\EntityModels\\ShetininContext.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\EntityModels\\ShetininContext.cs",
+              "RelativeToolTip": "LastDemo\\EntityModels\\ShetininContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:14:48.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "LastDemo\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\MainWindow.axaml",
+              "RelativeToolTip": "LastDemo\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T06:01:51.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "LastDemo\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Class_Student\\Desktop\\LastDemo\\LastDemo\\MainWindow.axaml.cs",
+              "RelativeToolTip": "LastDemo\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T06:01:49.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
